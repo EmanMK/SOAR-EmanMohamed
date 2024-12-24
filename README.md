@@ -1,19 +1,35 @@
-# Node Service README
+# Soar Task By Eman Mohamed
 
 ## Overview
 
 This repository contains a Node.js service designed to do SOAR Backend task by Eman Mohamed.
 
 ## Features
+- schools, classrooms, students crud operations
+- comprehensive input validation
+- error handling and appropriate HTTP status codes
+- database schema
+- authentication and authorization
+- swagger documentation
+- unit tests
+- API rate limiting and security measures
 
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-- [Feature 4]
+## Swagger Documentation
 
-## Documentation
+You can find the full documentation for this service in the Domain/docs of the repository. 
 
-You can find the full documentation for this service in the Domain/docs of the repository. This includes API reference, setup instructions, configuration details, and usage examples.
+## Database schema diagram
+https://drive.google.com/file/d/1EQUy_R-pyAiPvCHluZZku9t8rSa0ijmj/view?usp=sharing
+
+## steps to test service APIs
+- choose between getting SUPERP_ADMIN  or SCHOOL_ADMINISTRATOR roles; to get long token. dummy step to avoid creation and login scenarios for admins.
+   - call /api/user/v1_createSuperAdmin
+   - call /api/user/v1_createSchoolAdmin
+- create short token to be used as access token.
+   - call /api/user/v1_createShortToken
+- create school.
+   - call /api/user/v1_createShortToken
+- call any other endpoint.
 
 ## Installation
 
@@ -45,9 +61,9 @@ Follow the steps below to set up and run the service locally.
 
 4. Run the service:
     ```bash
-    npm start
+    npm run start
     ```
-    The service will be available at `http://localhost:3000`.
+    The service will be available at `http://localhost:5111`.
 
 ## Running Tests
 
@@ -59,3 +75,8 @@ To run all the tests:
 
 ```bash
 npm run test
+```
+
+
+
+
