@@ -16,8 +16,8 @@ This repository contains a Node.js service designed to do SOAR Backend task by E
 
 ## Swagger Documentation
 
-You can find the full documentation for this service in the Domain/docs of the repository. 
-https://soar-emanmohamed.onrender.com/docs
+You can find the full documentation for this service in the https://soar-emanmohamed.onrender.com/docs of the repository
+
 
 ## Database schema diagram
 https://drive.google.com/file/d/1EQUy_R-pyAiPvCHluZZku9t8rSa0ijmj/view?usp=sharing
