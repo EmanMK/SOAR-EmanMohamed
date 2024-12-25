@@ -1,6 +1,6 @@
 /**
  * @openapi
- * /api/user/v1_createSuperAdmin:
+ * /api/user/createSuperAdmin:
  *   post:
  *     tags:
  *       - user
@@ -42,7 +42,7 @@
  *                       description: long token of the super admin used to create short token<access token>.
  * 
  *      
- * /api/user/v1_createSchoolAdmin:
+ * /api/user/createSchoolAdmin:
  *   post:
  *     tags:
  *       - user
