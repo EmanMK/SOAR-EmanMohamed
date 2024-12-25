@@ -1,6 +1,6 @@
 /**
  * @openapi
- * /api/user/v1_createShortToken:
+ * /api/token/v1_createShortToken:
  *   post:
  *     tags:
  *       - token
