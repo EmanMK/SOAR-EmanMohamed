@@ -44,9 +44,9 @@ module.exports = class UserServer {
 		app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 		let server = http.createServer(app);
-		server.listen(this.config.dotEnv.USER_PORT, () => {
+		server.listen(this.config.dotEnv.PORT, () => {
 			console.log(
-				`${this.config.dotEnv.SERVICE_NAME.toUpperCase()} is running on port: ${this.config.dotEnv.USER_PORT}`
+				`${this.config.dotEnv.SERVICE_NAME.toUpperCase()} is running on port: ${this.config.dotEnv.PORT}`
 			);
 		});
 	}

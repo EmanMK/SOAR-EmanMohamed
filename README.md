@@ -17,6 +17,7 @@ This repository contains a Node.js service designed to do SOAR Backend task by E
 ## Swagger Documentation
 
 You can find the full documentation for this service in the Domain/docs of the repository. 
+https://soar-emanmohamed.onrender.com/docs
 
 ## Database schema diagram
 https://drive.google.com/file/d/1EQUy_R-pyAiPvCHluZZku9t8rSa0ijmj/view?usp=sharing
@@ -44,7 +45,7 @@ Follow the steps below to set up and run the service locally.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/[your-repo-url].git
+    git clone https://github.com/EmanMK/SOAR-EmanMohamed.git
     cd [repo-name]
     ```
 
@@ -76,6 +77,26 @@ To run all the tests:
 ```bash
 npm run test
 ```
+
+
+
+##TEST COVERAGE
+
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |   64.63 |       50 |   64.28 |   72.55 |                   
+ classroom             |    80.3 |       56 |     100 |   91.22 |                   
+  classroom.manager.js |    80.3 |       56 |     100 |   91.22 | 44,70,88,122,144  
+ school                |    80.3 |       56 |     100 |   91.22 |                   
+  school.manager.js    |    80.3 |       56 |     100 |   91.22 | 43,68,101,116,137 
+ student               |    80.3 |       56 |     100 |   91.22 |                   
+  student.manager.js   |    80.3 |       56 |     100 |   91.22 | 48,74,118,136,156 
+ token                 |       0 |        0 |       0 |       0 |                   
+  Token.manager.js     |       0 |        0 |       0 |       0 | 1-78              
+ user                  |       0 |        0 |       0 |       0 |                   
+  User.manager.js      |       0 |        0 |       0 |       0 | 1-44             
+
+
 
 
 
